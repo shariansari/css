@@ -1,0 +1,15 @@
+#first {
+    background-color: aqua;
+    color: rgb(175, 34, 231);
+}
+.red {
+background-color: blue;
+color: white;
+}
+#second {
+background-color: antiquewhite;
+color: rgb(22, 194, 236);
+}
+* {
+    margin: 0;padding: 0;;
+}

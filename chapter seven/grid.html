@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .bigb {
+          display: grid;
+         background-color: yellow;
+         grid-template-columns: auto auto auto auto auto;
+    
+      }
+      .box1 {
+        background-color: red;
+        border: 2px solid black;
+      }
+     .box2 {
+        background-color: yellow;
+        border: 2px solid black;
+      }
+      .box3 {
+        background-color: pink;
+        border: 2px solid black;
+      }
+      .box4 {
+        background-color:orange;
+        border: 2px solid black;
+      }
+      .box5 {
+        background-color: blue;
+        border: 2px solid black;
+      }
+      .box6 {
+        background-color:cyan;
+        border: 2px solid black;
+        grid-column: 1/ span 6;
+      }
+      .box7 {
+        background-color: purple;
+        border: 2px solid black;
+      }
+      .box8{
+        background-color: green;
+        grid-column: 1/5;
+      }
+        
+        
+    </style>
+</head>
+<body>
+<div class="bigb">
+    <div class="box1">box1</div>
+    <div class="box2">b0x2</div>
+    <div class="box3">box3</div>
+    <div class="box4">b0x4</div>
+    <div class="box5">b0x5</div>
+    <div class="box6">box6</div>
+    <div class="box7">box7</div>
+    <div class="box8">box8</div>
+</div>
+    
+</body>
+</html>
